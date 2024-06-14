@@ -57,7 +57,7 @@ public class CustomUserDetailsService implements UserDetailsService {
         List<SimpleGrantedAuthority> roles = Arrays.asList(new SimpleGrantedAuthority(user.getRole()));	        System.out.println("Username: " + user.getUsername());
 	        System.out.println("Password: " + user.getPassword());
 	        System.out.println("Roles: " + roles);
-
+            System.out.println("Git testing.");
 	        return new User(user.getUsername(), user.getPassword(), roles);
 	}
 	
