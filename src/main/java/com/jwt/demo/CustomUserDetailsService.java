@@ -58,6 +58,7 @@ public class CustomUserDetailsService implements UserDetailsService {
 	        System.out.println("Password: " + user.getPassword());
 	        System.out.println("Roles: " + roles);
             System.out.println("Git testing.");
+            System.out.println("Git Desktop");
 	        return new User(user.getUsername(), user.getPassword(), roles);
 	}
 	
