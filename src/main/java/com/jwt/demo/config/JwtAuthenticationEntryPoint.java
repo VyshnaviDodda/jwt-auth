@@ -1,4 +1,4 @@
-package com.jwt.demo;
+package com.jwt.demo.config;
 
 import java.io.IOException;
 import java.util.Collections;

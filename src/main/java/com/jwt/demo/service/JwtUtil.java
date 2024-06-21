@@ -1,4 +1,4 @@
-package com.jwt.demo;
+package com.jwt.demo.service;
 
 import java.security.Key;
 import java.util.Arrays;

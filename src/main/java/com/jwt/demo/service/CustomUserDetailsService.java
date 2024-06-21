@@ -1,4 +1,4 @@
-package com.jwt.demo;
+package com.jwt.demo.service;
 
 import java.util.Arrays;
 import java.util.List;
@@ -11,6 +11,10 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
+
+import com.jwt.demo.DTO.UserDTO;
+import com.jwt.demo.model.DAOUser;
+import com.jwt.demo.repo.UserRepository;
 
 
 @Service

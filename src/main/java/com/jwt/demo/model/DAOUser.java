@@ -1,4 +1,4 @@
-package com.jwt.demo;
+package com.jwt.demo.model;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

@@ -1,4 +1,4 @@
-package com.jwt.demo;
+package com.jwt.demo.config;
 
 import java.io.IOException;
 
@@ -10,6 +10,9 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.web.authentication.WebAuthenticationDetailsSource;
 import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
+
+import com.jwt.demo.service.CustomUserDetailsService;
+import com.jwt.demo.service.JwtUtil;
 
 import io.jsonwebtoken.ExpiredJwtException;
 import jakarta.servlet.FilterChain;

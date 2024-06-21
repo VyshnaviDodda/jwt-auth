@@ -1,4 +1,4 @@
-package com.jwt.demo;
+package com.jwt.demo.DTO;
 
 public class AuthenticationRequest
 {
